@@ -20,10 +20,10 @@ padding:0;
  }
 
 h1,h2,h3,h4,h5{
-font-weight:bold; 
+font-weight:700; 
  }
 h5,h6{
-font-family: 'Poppins', sans-serif;
+font-family: 'Noto Sans Kannada' , 'Poppins', sans-serif;
  }
 a{
 color: #333;
