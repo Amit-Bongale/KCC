@@ -6,6 +6,7 @@ function myFunction() {
   if (window.pageYOffset >= sticky + navbar_height) {
     navbar_sticky.classList.add("sticky")
 	document.body.style.paddingTop = navbar_height + 'px';
+
   } else {
     navbar_sticky.classList.remove("sticky");
 	document.body.style.paddingTop = '0'
