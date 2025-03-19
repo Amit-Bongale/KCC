@@ -157,6 +157,9 @@ height:4px!important;
 width: 100px;
 background-color:#a1915b;
 }
+.text-justify{
+  text-align: justify;
+}
 
 
 .p_3{
