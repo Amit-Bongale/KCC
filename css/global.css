@@ -120,6 +120,9 @@ background-color: rgba(0,0,0,.4)!important;
 .bg_backo{
 background-color: rgba(0,0,0,.8)!important;
 }
+.bg_blue{
+  background-color: rgb(13, 110, 255)!important;
+}
 
 
 hr{
@@ -325,6 +328,12 @@ background-color:#0590B8;
 .social-network a.icoLinkedin:hover {
 background-color:#007bb7;
 }
+.social-network a.icoYouTube:hover {
+  background-color:#b72b00;
+}
+.social-network a.icoInstagram:hover {
+  background-color:#f8097d;
+}
 .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
 .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
 color:#fff;
@@ -519,7 +528,8 @@ padding-left:0!important;
 padding-right:0!important;
 width:100%;
 border-radius:0;
-background-color: rgba(0,0,0,1)!important;
+background-color: rgb(13, 115 , 255)!important;
+margin: 0px;
  }
 
 .sticky .drop_1{
