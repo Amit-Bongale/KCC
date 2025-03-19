@@ -329,7 +329,7 @@ background-color:#0590B8;
 background-color:#007bb7;
 }
 .social-network a.icoYouTube:hover {
-  background-color:#b72b00;
+  background-color:#f90000;
 }
 .social-network a.icoInstagram:hover {
   background-color:#f8097d;
@@ -475,7 +475,7 @@ height:50px;
 
 /*********************footer****************/
 #footer {
-background-image: url(../img/14.jpg);
+  background-color: black;
 }
 .footer_1i ul li a{
 background:#a1915b;  
