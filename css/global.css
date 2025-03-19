@@ -44,6 +44,13 @@ color: #a1915b!important;
  }
 
 
+marquee{
+  background-color: rgb(3, 3, 49);
+  color: white;
+  margin: 0;
+  padding: 5px;
+}
+
 .button{
 transition: 0.3s;
 padding: 14px 35px 14px 35px;
@@ -120,10 +127,15 @@ background-color: rgba(0,0,0,.4)!important;
 .bg_backo{
 background-color: rgba(0,0,0,.8)!important;
 }
-.bg_blue{
+/* .bg_blue{
   background-color: rgb(13, 110, 255)!important;
+} */
+.bg_blue{
+  background-color: #262b7a!important;
 }
-
+.bg_darkblue{
+background-color:#121435!important;
+}
 
 hr{
 opacity:1;
