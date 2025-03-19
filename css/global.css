@@ -49,6 +49,7 @@ marquee{
   color: white;
   margin: 0;
   padding: 5px;
+  vertical-align: top;
 }
 
 .button{
@@ -127,14 +128,14 @@ background-color: rgba(0,0,0,.4)!important;
 .bg_backo{
 background-color: rgba(0,0,0,.8)!important;
 }
-/* .bg_blue{
+.bg_lightblue{
   background-color: rgb(13, 110, 255)!important;
-} */
+}
 .bg_blue{
   background-color: #262b7a!important;
 }
 .bg_darkblue{
-background-color:#121435!important;
+background-color:#171a45!important;
 }
 
 hr{
