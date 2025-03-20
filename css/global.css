@@ -351,7 +351,13 @@ background-color:#007bb7;
   background-color:#f90000;
 }
 .social-network a.icoInstagram:hover {
-  background-color:#f8097d;
+  background-color:#f809a0;
+}
+.social-network a.icoWhatsapp:hover {
+  background-color:#4fcf05;
+}
+.social-network a.icoXTwitter:hover {
+  background-color:#090909;
 }
 .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
 .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
