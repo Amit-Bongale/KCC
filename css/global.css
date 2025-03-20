@@ -353,6 +353,9 @@ background-color:#007bb7;
 .social-network a.icoInstagram:hover {
   background-color:#f8097d;
 }
+.social-network a.icoWhatsapp:hover {
+  background-color:#61f809;
+}
 .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
 .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
 color:#fff;
@@ -511,6 +514,7 @@ color: #aa2020;
 
 
 @media screen and (max-width : 767px){
+
 .navbar-collapse{
 max-height:300px;
 overflow-y:scroll; 
@@ -547,7 +551,7 @@ padding-left:0!important;
 padding-right:0!important;
 width:100%;
 border-radius:0;
-background-color: rgb(13, 115 , 255)!important;
+background-color:#262b7a!important;
 margin: 0px;
  }
 
@@ -665,11 +669,16 @@ text-align:center;
 .skill_1r h5{
 text-align:center; 
  }
+
+  iframe{
+    width: 95vw;
+  }
  }
 @media (min-width:576px) and (max-width:767px) {
 
  }
 @media (min-width:768px) and (max-width:991px) {
+
 .navbar-expand-md {
 flex-wrap:wrap!important;
 }
@@ -727,7 +736,10 @@ line-height: 30px;
 #header .nav-link {
 padding: 20px 16px;
 }
- }
+
+
+
+}
 @media (min-width:992px) and (max-width:1200px) {
 .navbar-expand-md {
 flex-wrap:wrap!important;
