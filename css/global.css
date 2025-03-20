@@ -287,6 +287,21 @@ transition: transform .3s;
 
 /*********************header_end****************/
 
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: 0;
+  display: none;
+  position: absolute;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+  display: block;
+}
 
 
 /*********************common****************/
@@ -351,10 +366,13 @@ background-color:#007bb7;
   background-color:#f90000;
 }
 .social-network a.icoInstagram:hover {
-  background-color:#f8097d;
+  background-color:#f809a0;
 }
 .social-network a.icoWhatsapp:hover {
-  background-color:#61f809;
+  background-color:#4fcf05;
+}
+.social-network a.icoXTwitter:hover {
+  background-color:#090909;
 }
 .social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
 .social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
