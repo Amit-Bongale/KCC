@@ -68,7 +68,7 @@ marquee {
   display: inline-block;
   font-size: 16px;
   color: #fff !important;
-  background-color: #a1915b !important;
+  background-color: #1276bd !important;
   font-weight: bold;
 }
 
@@ -83,7 +83,7 @@ marquee {
   display: inline-block;
   font-size: 16px;
   color: #fff !important;
-  background-color: #a1915b !important;
+  background-color: #1276bd !important;
   font-weight: bold;
 }
 
@@ -298,7 +298,7 @@ display: block;
 
 .dropdown-submenu > .dropdown-menu {
   top: 0;
-  left: 105%;
+  left: 100%;
   margin-top: 0;
   display: none;
   position: absolute;
@@ -306,11 +306,6 @@ display: block;
 
 .dropdown-submenu:hover > .dropdown-menu {
   display: block;
-}
-
-.dropdown-submenu > .dropdown-menu:active {
-  /*Without this, clicking will make it sticky*/
-  pointer-events: none;
 }
 
 /*********************common****************/
